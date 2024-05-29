@@ -1,0 +1,21 @@
+// src/components/TagsFilter.scss
+
+.tags-filter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .tag-button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .tag-button.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
